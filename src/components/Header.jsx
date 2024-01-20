@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import fondo1 from "../img/fondo1.jpg";
 import linked from "../img/LinkedIn_Logo.png";
 import indeed from "../img/indeed-share-image.png";
+import github from "../img/github-logo-git-hub.jpg";
 
 const Header = ({ title }) => {
   return (
@@ -23,6 +24,13 @@ const Header = ({ title }) => {
           rel="noreferrer"
         >
           <img src={indeed} />
+        </a>{" "}
+        <a
+          href="https://github.com/rlovera2?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={github} />
         </a>
         <br />
         <br />

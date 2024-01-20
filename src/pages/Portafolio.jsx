@@ -4,6 +4,7 @@ import crud from "../img/crud.jpg";
 import dashboard from "../img/dashboard.jpg";
 import restaurant from "../img/restaurant.png";
 import ecommerce from "../img/ecommerce.jpg";
+import github2 from "../img/github-logo.png";
 
 const Portafolio = () => {
   return (
@@ -29,15 +30,38 @@ const Portafolio = () => {
             <p className="card-text">
               Una página sencilla para promocionar un producto en línea.
             </p>
+
             <p className="card-text">
-              <img src={link} alt="Imagen link" /> &nbsp;
-              <a
-                href="https://rlovera2.github.io/proyecto1-Landing-de-Venta/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://rlovera2.github.io/proyecto1-Landing-de-Venta/
-              </a>
+              <table>
+                <tr>
+                  <td>
+                    <img src={link} alt="Imagen link" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://rlovera2.github.io/proyecto1-Landing-de-Venta/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://rlovera2.github.io/proyecto1-Landing-de-Venta/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={github2} alt="Imagen github" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://github.com/rlovera2/proyecto1-Landing-de-Venta"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://github.com/rlovera2/proyecto1-Landing-de-Venta
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </p>
           </div>
         </div>
@@ -67,14 +91,36 @@ const Portafolio = () => {
               CRUD ].
             </p>
             <p className="card-text">
-              <img src={link} alt="Imagen link" /> &nbsp;
-              <a
-                href="https://rlovera2.github.io/proyecto2-CRUD.github.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://rlovera2.github.io/proyecto2-CRUD.github.io/
-              </a>
+              <table>
+                <tr>
+                  <td>
+                    <img src={link} alt="Imagen link" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://rlovera2.github.io/proyecto2-CRUD.github.io/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://rlovera2.github.io/proyecto2-CRUD.github.io/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={github2} alt="Imagen github" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://github.com/rlovera2/proyecto2-CRUD.github.io"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://github.com/rlovera2/proyecto2-CRUD.github.io
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </p>
           </div>
         </div>
