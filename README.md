@@ -5,4 +5,4 @@ empleando tecnologias como React, HTML5, CSS, JavaScript, Fire Base, MongoDB y n
 
 Autor: Roberto Lovera
 
-https://rlovera2.github.io/proyecto-6-Portafolio/
+https://proyecto-6-portafolio-rhln.netlify.app/
