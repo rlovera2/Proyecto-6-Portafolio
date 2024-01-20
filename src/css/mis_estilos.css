@@ -1,0 +1,226 @@
+/***** Definiendo estilo a los enlace ******/
+a{
+    color: rgb(60, 0, 255);
+    text-decoration: none;
+    
+    }
+    a:link{
+        color: rgb(60, 0, 255);
+        text-decoration: none;
+
+    }
+    
+    a:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color:red;
+        }
+    
+        a:visited {
+            color: rgb(60, 0, 255);
+    
+        }
+           
+    /******** Declarando Clases *******/
+    
+.texto_header{
+    background-color: rgb(23, 2, 60);
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+}
+
+.imagen_principal{
+    align-content: center;
+    font-family: Copperplate Gothic Bold, Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:rgb(6, 6, 40);
+    height: 50%;
+    width: 50%;
+}
+
+.imagen_portafolio{
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color:gray;
+    border-style: solid;
+    /* border-radius: 10px; */
+
+}
+
+.contenedor_img_portafolio{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color:rgb(0, 0, 0); */
+    width: 345px;
+    height:345px;
+    padding: 2px;
+    /* align-content: center; */
+    align-items: center;
+    
+}
+
+
+.fondo_card{
+    background-color: rgb(228, 226, 226);
+}   
+
+
+
+.menu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 10px;
+    background-color: rgb(5, 5, 66);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    align-items:center ;
+    align-content: center;
+    height: 100px;      
+}
+
+.contenedor{
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow:wrap;
+    gap: 10px;
+    padding: 15px;
+    align-content:space-between;    
+    /* align-content:center; */
+    align-items:normal; 
+    height: auto;
+    width: auto;
+
+}
+
+.margenes{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+        
+    }
+
+    .contenedor_footer{
+        display: flex;
+        flex-flow: wrap;
+        justify-content:space-evenly; 
+        align-items: center;
+        background-color: rgb(44, 44, 48);
+        font-size:medium;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style:normal;
+        color: white;
+        width: auto;
+        height: auto;
+    }
+    
+    .contenedor_header{
+        width: auto;
+        height: auto;
+    }
+
+    .linea_divisoria{
+
+        width: 50%;
+        align-items: center;
+        border: 1px solid rgb(5, 5, 66);
+        
+    }
+
+    .texto_Principal{
+        align-items:center;
+        width: 50%;
+        height: 50%;
+    }
+
+
+/***********************************************/
+/******************* Media Queries *************/
+/***********************************************/
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (max-width: 1400px) {
+    
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 320px) {
+
+    main{
+
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+
+
+    
+}
