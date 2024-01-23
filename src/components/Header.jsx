@@ -1,10 +1,21 @@
 import PropTypes from "prop-types";
 import fondo1 from "../img/fondo1.jpg";
-import linked from "../img/LinkedIn_Logo.png";
-import indeed from "../img/indeed-share-image.png";
-import github from "../img/github-logo-git-hub.jpg";
+import linked_azul1 from "../img/linkedin-azul1.png";
+//import linked_azul2 from "../img/linkedin-azul2.png";
+import indeed_azul1 from "../img/indeed-azul1.png";
+import github_azul1 from "../img/github-azul1.png";
 
 const Header = ({ title }) => {
+  //************CAMBIANDO IMAGEN PRINCIPAL CUANDO TIENE EL FOCO ***************/
+  // const cambiarImagenOn = (id, img) => {
+  //   document.getElementById(id).src = img;
+  // };
+
+  //************CAMBIANDO IMAGEN PRINCIPAL CUANDO PIERDE EL FOCO ***************/
+  // const cambiarImagenOff = (id, img) => {
+  //   document.getElementById(id).src = { img };
+  // };
+
   return (
     <header className="row col contenedor_header">
       <div className="texto_header">
@@ -16,21 +27,27 @@ const Header = ({ title }) => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linked} />
+          <img
+            src={linked_azul1}
+            alt="Linked"
+            id="img_Linked"
+            // onMouseOver={cambiarImagenOn("img_Linked", linked_azul2)}
+            // onMouseOut={cambiarImagenOff("img_Linked", linked_azul1)}
+          />
         </a>{" "}
         <a
           href="https://profile.indeed.com/p/robertol-aey6jec"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={indeed} />
+          <img src={indeed_azul1} />
         </a>{" "}
         <a
           href="https://github.com/rlovera2?tab=repositories"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} />
+          <img src={github_azul1} />
         </a>
         <br />
         <br />

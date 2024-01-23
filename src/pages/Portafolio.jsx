@@ -65,7 +65,6 @@ const Portafolio = () => {
             </p>
           </div>
         </div>
-        <br />
 
         {/* ************************* CRUD *********************************** */}
 
@@ -124,7 +123,6 @@ const Portafolio = () => {
             </p>
           </div>
         </div>
-        <br />
 
         {/* ************************* DASHBOARD *********************************** */}
 
@@ -148,18 +146,39 @@ const Portafolio = () => {
               de datos definida descargados de un API.
             </p>
             <p className="card-text">
-              <img src={link} alt="Imagen link" /> &nbsp;
-              <a
-                href="https://rlovera2.github.io/proyecto3-Dashboard-App/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://rlovera2.github.io/proyecto3-Dashboard-App/
-              </a>
+              <table>
+                <tr>
+                  <td>
+                    <img src={link} alt="Imagen link" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://rlovera2.github.io/proyecto3-Dashboard-App/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://rlovera2.github.io/proyecto3-Dashboard-App/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={github2} alt="Imagen github" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://github.com/rlovera2/proyecto3-Dashboard-App"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://github.com/rlovera2/proyecto3-Dashboard-App
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </p>
           </div>
         </div>
-        <br />
 
         {/* ************************* RESTAURANT *********************************** */}
 
@@ -186,18 +205,40 @@ const Portafolio = () => {
               oportuno.
             </p>
             <p className="card-text">
-              <img src={link} alt="Imagen link" /> &nbsp;
-              <a
-                href="https://proyecto-4-restaurant-app.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://proyecto-4-restaurant-app.netlify.app/
-              </a>
+              <table>
+                <tr>
+                  <td>
+                    <img src={link} alt="Imagen link" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://proyecto-4-restaurant-app.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://proyecto-4-restaurant-app.netlify.app/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={github2} alt="Imagen github" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://github.com/rlovera2/proyecto-4-Restaurant-App"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://github.com/rlovera2/proyecto-4-Restaurant-App
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </p>
           </div>
         </div>
-        <br />
+
         {/* ************************* ECOMMERCE *********************************** */}
 
         <div className="card contenedor_img_portafolio">
@@ -222,14 +263,36 @@ const Portafolio = () => {
               productos al carrito de compras.
             </p>
             <p className="card-text">
-              <img src={link} alt="Imagen link" /> &nbsp;
-              <a
-                href="https://proyecto-5-ap-de-comercio-electronico.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://proyecto-5-ap-de-comercio-electronico.netlify.app/
-              </a>
+              <table>
+                <tr>
+                  <td>
+                    <img src={link} alt="Imagen link" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://proyecto-5-ap-de-comercio-electronico.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://proyecto-5-ap-de-comercio-electronico.netlify.app/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={github2} alt="Imagen github" /> &nbsp;
+                  </td>
+                  <td>
+                    <a
+                      href="https://github.com/rlovera2/proyecto-5-Aplicacion-de-Comercio-Electronico-FrontEnd"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://github.com/rlovera2/proyecto-5-Aplicacion-de-Comercio-Electronico-FrontEnd
+                    </a>
+                  </td>
+                </tr>
+              </table>
             </p>
           </div>
         </div>
