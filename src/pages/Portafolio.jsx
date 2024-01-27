@@ -5,6 +5,10 @@ import dashboard from "../img/dashboard.jpg";
 import restaurant from "../img/restaurant.png";
 import ecommerce from "../img/ecommerce.jpg";
 import github2 from "../img/github-logo.png";
+import html5 from "../img/html5.png";
+import css3 from "../img/css3.png";
+import js from "../img/js.png";
+import nodejs from "../img/nodejs_1.png";
 
 const Portafolio = () => {
   return (
@@ -30,7 +34,14 @@ const Portafolio = () => {
             <p className="card-text">
               Una página sencilla para promocionar un producto en línea.
             </p>
-
+            <b>Teconlogías usadas:</b>
+            <br />
+            <br />
+            <img src={html5} alt="HTML5" />
+            <img src={css3} alt="CSS3" />
+            <img src={js} alt="js" />
+            <br />
+            <br />
             <p className="card-text">
               <table>
                 <tr>
@@ -89,6 +100,15 @@ const Portafolio = () => {
               Delete / <br />
               CRUD ].
             </p>
+            <b>Teconlogías usadas:</b>
+            <br />
+            <br />
+            <img src={html5} alt="HTML5" />
+            <img src={css3} alt="CSS3" />
+            <img src={js} alt="js" />
+            <br />
+            <br />
+
             <p className="card-text">
               <table>
                 <tr>
@@ -145,6 +165,16 @@ const Portafolio = () => {
               Una página donde se puede generar un gráfico basado en una tabla
               de datos definida descargados de un API.
             </p>
+            <b>Teconlogías usadas:</b>
+            <br />
+            <br />
+            <img src={html5} alt="HTML5" />
+            <img src={css3} alt="CSS3" />
+            <img src={js} alt="js" />
+            <img src={nodejs} alt="nodejs" />
+            <br />
+            <br />
+
             <p className="card-text">
               <table>
                 <tr>
