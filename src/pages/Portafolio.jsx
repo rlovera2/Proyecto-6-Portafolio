@@ -9,6 +9,8 @@ import html5 from "../img/html5.png";
 import css3 from "../img/css3.png";
 import js from "../img/js.png";
 import nodejs from "../img/nodejs_1.png";
+import reactjs from "../img/reactjs.png";
+import firebase from "../img/firebase-1.png";
 
 const Portafolio = () => {
   return (
@@ -39,7 +41,7 @@ const Portafolio = () => {
             <br />
             <img src={html5} alt="HTML5" />
             <img src={css3} alt="CSS3" />
-            <img src={js} alt="js" />
+            <img src={js} alt="JS" />
             <br />
             <br />
             <p className="card-text">
@@ -105,7 +107,7 @@ const Portafolio = () => {
             <br />
             <img src={html5} alt="HTML5" />
             <img src={css3} alt="CSS3" />
-            <img src={js} alt="js" />
+            <img src={js} alt="JS" />
             <br />
             <br />
 
@@ -170,8 +172,8 @@ const Portafolio = () => {
             <br />
             <img src={html5} alt="HTML5" />
             <img src={css3} alt="CSS3" />
-            <img src={js} alt="js" />
-            <img src={nodejs} alt="nodejs" />
+            <img src={js} alt="JS" />
+            <img src={nodejs} alt="NodeJS" />
             <br />
             <br />
 
@@ -234,6 +236,20 @@ const Portafolio = () => {
               que consultes dudas y te puedan contactar en el momento más
               oportuno.
             </p>
+
+            <b>Teconlogías usadas:</b>
+            <br />
+            <br />
+            <img src={html5} alt="HTML5" />
+            <img src={css3} alt="CSS3" />
+            <img src={js} alt="JS" />
+            <img src={nodejs} alt="NodeJS" />
+            <img src={reactjs} alt="ReactJS" />
+            <img src={firebase} alt="Firebase" />
+
+            <br />
+            <br />
+
             <p className="card-text">
               <table>
                 <tr>
