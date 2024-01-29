@@ -21,12 +21,16 @@ const HomePage = () => {
         <hr className="linea_divisoria" />
 
         <article className="card texto_Principal">
-          &nbsp;&nbsp;Con el pasar del tiempo el desarrollo web se a tornado
-          esencial y muy determinante para acceder a un mercado globalizado y
-          claramente segmentado, donde existen alternativas y productos para
-          todos los presupuestos en este sentido la web se a vuelto cada ves mas
-          cambiante y madura a continuacion alguna de las herramientas que
-          podras encontrar en un sitio web.
+          &nbsp;&nbsp;Soy un profecional en el área de Informática teniendo como
+          destreza principal el manejo eficiente de la información mediante el
+          uso del computador haciando uso tecnologias de software.
+          <br />
+          Con el pasar del tiempo el desarrollo web se a tornado esencial y muy
+          determinante para acceder a un mercado globalizado y claramente
+          segmentado, donde existen alternativas y productos para todos los
+          presupuestos en este sentido la web se a vuelto cada ves mas cambiante
+          y madura a continuacion alguna de las herramientas que podras
+          encontrar en un sitio web.
         </article>
         <Portafolio />
       </main>

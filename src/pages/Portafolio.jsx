@@ -10,7 +10,9 @@ import css3 from "../img/css3.png";
 import js from "../img/js.png";
 import nodejs from "../img/nodejs_1.png";
 import reactjs from "../img/reactjs.png";
+import express from "../img/express.png";
 import firebase from "../img/firebase-1.png";
+import mongodb from "../img/mongodb.png";
 
 const Portafolio = () => {
   return (
@@ -248,7 +250,6 @@ const Portafolio = () => {
             <img src={firebase} alt="Firebase" />
 
             <br />
-            <br />
 
             <p className="card-text">
               <table>
@@ -308,6 +309,20 @@ const Portafolio = () => {
               específico, adicionalmente podras registarte y agregar o eliminar
               productos al carrito de compras.
             </p>
+            <b>Teconlogías usadas:</b>
+
+            <br />
+            <br />
+            <img src={html5} alt="HTML5" />
+            <img src={css3} alt="CSS3" />
+            <img src={js} alt="JS" />
+            <img src={nodejs} alt="NodeJS" />
+            <img src={reactjs} alt="ReactJS" />
+            <img src={express} alt="Express" />
+            <img src={mongodb} alt="mongoDB" />
+            <br />
+            <br />
+
             <p className="card-text">
               <table>
                 <tr>
