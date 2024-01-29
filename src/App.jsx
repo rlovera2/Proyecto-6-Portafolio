@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <Header title="&nbsp;&nbsp;Portafolio del T.S.U. Informática Roberto Lovera" />
+      <Header title="&nbsp;&nbsp;Portafolio T.S.U. Roberto Lovera" />
 
       <HomePage />
 

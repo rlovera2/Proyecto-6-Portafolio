@@ -310,7 +310,6 @@ const Portafolio = () => {
               productos al carrito de compras.
             </p>
             <b>Teconlogías usadas:</b>
-
             <br />
             <br />
             <img src={html5} alt="HTML5" />
@@ -319,10 +318,10 @@ const Portafolio = () => {
             <img src={nodejs} alt="NodeJS" />
             <img src={reactjs} alt="ReactJS" />
             <img src={express} alt="Express" />
+            &nbsp;
             <img src={mongodb} alt="mongoDB" />
             <br />
             <br />
-
             <p className="card-text">
               <table>
                 <tr>
