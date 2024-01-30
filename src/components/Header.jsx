@@ -19,7 +19,7 @@ const Header = ({ title }) => {
   };
 
   return (
-    <header className="row col contenedor_header">
+    <header className="contenedor_header">
       <div className="texto_header">
         <br />
         <h2>{title}</h2>
@@ -67,7 +67,8 @@ const Header = ({ title }) => {
         <br />
       </div>
       <div>
-        <img src={fondo1} height="88%" width="100%" />
+        {/* <img src={fondo1} height="88%" width="101%" /> */}
+        <img src={fondo1} className="imagen_binaria" />
       </div>
     </header>
   );
