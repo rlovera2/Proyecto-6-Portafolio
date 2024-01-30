@@ -1,5 +1,5 @@
 import link from "../img/link.png";
-import landing from "../img/landing.jpg";
+import landing from "../img/landing.png";
 import crud from "../img/crud.jpg";
 import dashboard from "../img/dashboard.jpg";
 import restaurant from "../img/restaurant.png";
