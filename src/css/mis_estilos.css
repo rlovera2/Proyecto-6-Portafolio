@@ -144,8 +144,12 @@ a{
 
     .texto_Principal{
         align-items:center;
-        width: 50%;
-        height: 50%;
+        background-color: #4945ff;
+        color:#ffffff;
+        padding: 15px;
+        width: 100%;
+       /* height: 50%; */
+       border-radius: 4px;
     }
 
 

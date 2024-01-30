@@ -8,45 +8,10 @@ const Footer = () => {
           <br />
           <center>
             <div>
-              <a
-                href="https://rlovera2.github.io/proyecto1-Landing-de-Venta/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Landing
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://rlovera2.github.io/proyecto2-CRUD.github.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Crud
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://rlovera2.github.io/proyecto3-Dashboard-App/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Dashboard
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://proyecto-4-restaurant-app.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Restaurant
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://proyecto-5-ap-de-comercio-electronico.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ecommerce
-              </a>
+              <a href="#landing">Landing</a> | <a href="#crud">Crud</a> |{" "}
+              <a href="#dashboard">Dashboard</a> |{" "}
+              <a href="#restaurant">Restaurant</a> |{" "}
+              <a href="#ecommerce">Ecommerce</a>
               <br />
               <br />
               Para cualquier información puede ponerse en contacto con el

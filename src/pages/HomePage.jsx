@@ -20,18 +20,20 @@ const HomePage = () => {
 
         <hr className="linea_divisoria" />
 
-        <article className="card texto_Principal">
-          &nbsp;&nbsp;Soy un profecional en el área de Informática teniendo como
+        <article className=" texto_Principal">
+          &nbsp;&nbsp;Soy un profesional en el área de Informática teniendo como
           destreza principal el manejo eficiente de la información mediante el
-          uso del computador haciando uso tecnologias de software.
+          uso del computador haciendo uso tecnologías de software.
           <br />
-          Con el pasar del tiempo el desarrollo web se a tornado esencial y muy
-          determinante para acceder a un mercado globalizado y claramente
-          segmentado, donde existen alternativas y productos para todos los
-          presupuestos en este sentido la web se a vuelto cada ves mas cambiante
-          y madura a continuacion alguna de las herramientas que podras
-          encontrar en un sitio web.
+          <br />
+          &nbsp;&nbsp;Con el pasar del tiempo el desarrollo web se a tornado
+          esencial y muy determinante para acceder a un mercado globalizado y
+          claramente segmentado, donde existen alternativas y productos para
+          todos los presupuestos en este sentido la web se a vuelto cada ves mas
+          cambiante y madura a continuación alguna de las herramientas que
+          podrás encontrar en un sitio web.
         </article>
+        <hr className="linea_divisoria" />
         <Portafolio />
       </main>
     </>
