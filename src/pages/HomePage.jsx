@@ -5,13 +5,13 @@ import portafolio_d from "../img/Portafolio_digital.jpg";
 // import dashboard from "../img/dashboard.jpg";
 // import restaurant from "../img/restaurant.png";
 // import ecommerce from "../img/ecommerce.jpg";
-// import { consumirApi } from "../components/llamadaAPI";
+import { consumirApi } from "../components/llamadaAPI";
 import Portafolio from "./Portafolio";
 
 const HomePage = () => {
   return (
     <>
-      {/* {consumirApi} */}
+      {consumirApi}
       <br />
       <main className="contenedor">
         <h2>Desarrollo Web</h2>
