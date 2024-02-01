@@ -5,17 +5,17 @@ import {
   Navigate,
 } from "react-router-dom";
 
-//import NavBar from "../components/NavBar";
-import HomePage from "../pages/HomePage";
-
+import NavBar from "../components/NavBar";
+//import rPortafolio from "../pages/Portafolio";
 const AppRouter = () => {
   return (
     <>
       <Router>
+        <NavBar />
         <div className="container">
-          {/* <HomePage /> */}
+          {/* <NavBar /> */}
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/landing" element={<rPortafolio />} />
             {/* <Route path="/menu" element={<Menu />} /> */}
             {/* <Route path="/reservaciones" element={<Reservaciones />} /> */}
             {/* <Route path="/contactenos" element={<Contactenos />} /> */}

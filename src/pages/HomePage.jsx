@@ -1,4 +1,6 @@
 import portafolio_d from "../img/Portafolio_digital.jpg";
+import insigniaDevFullstack from "../img/insignia_dev_fullstack.png";
+
 // import link from "../img/link.png";
 // import landing from "../img/landing.jpg";
 // import crud from "../img/crud.jpg";
@@ -7,6 +9,7 @@ import portafolio_d from "../img/Portafolio_digital.jpg";
 // import ecommerce from "../img/ecommerce.jpg";
 import { consumirApi } from "../components/llamadaAPI";
 import Portafolio from "./Portafolio";
+import credly2 from "../img/credly2.png";
 
 const HomePage = () => {
   return (
@@ -14,7 +17,18 @@ const HomePage = () => {
       {consumirApi}
       <br />
       <main className="contenedor">
-        <h2>Desarrollo Web</h2>
+        <div>
+          <h2>Desarrollo Web</h2>
+          <br />
+          <img src={credly2} alt="Credly" />
+          <a
+            href="https://www.credly.com/earner/earned/badge/837642cf-31b5-4780-a619-e2a4348d86eb"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={insigniaDevFullstack} />
+          </a>
+        </div>
 
         <img src={portafolio_d} className="imagen_principal" />
 

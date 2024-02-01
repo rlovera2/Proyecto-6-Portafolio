@@ -6,6 +6,10 @@ import indeed_azul1 from "../img/indeed-azul1.png";
 import indeed_azul2 from "../img/indeed-azul2.png";
 import github_azul1 from "../img/github-azul1.png";
 import github_azul2 from "../img/github-azul2.png";
+import credly2 from "../img/credly2.png";
+import credly2_borde_blanco from "../img/credly2_borde_blanco.png";
+
+//import AppRouter from "../router/AppRouter";
 
 const Header = ({ title }) => {
   //************CAMBIANDO IMAGEN PRINCIPAL CUANDO TIENE EL FOCO ***************/
@@ -62,10 +66,26 @@ const Header = ({ title }) => {
             onMouseOver={() => cambiarImagenOn("img_Github", github_azul2)}
             onMouseOut={() => cambiarImagenOff("img_Github", github_azul1)}
           />
+        </a>{" "}
+        <a
+          href="https://www.credly.com/users/roberto-lovera/badges"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={credly2}
+            alt="Credly"
+            id="img_Credly"
+            onMouseOver={() =>
+              cambiarImagenOn("img_Credly", credly2_borde_blanco)
+            }
+            onMouseOut={() => cambiarImagenOff("img_Credly", credly2)}
+          />
         </a>
         <br />
         <br />
       </div>
+      {/* <AppRouter /> */}
       <div>
         {/* <img src={fondo1} height="88%" width="101%" /> */}
         <img src={fondo1} className="imagen_binaria" />

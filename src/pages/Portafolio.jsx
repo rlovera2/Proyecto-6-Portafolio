@@ -13,6 +13,12 @@ import reactjs from "../img/reactjs.png";
 import express from "../img/express.png";
 import firebase from "../img/firebase-1.png";
 import mongodb from "../img/mongodb.png";
+import insigniaLanding from "../img/insignia_landing.png";
+import insigniaCrud from "../img/insignia_crud.png";
+import insigniaDashboard from "../img/insignia_dashboard.png";
+import insigniaRestaurante from "../img/insignia_restaurante.png";
+import insigniaEcommerce from "../img/insignia_ecommerce.png";
+import credly2 from "../img/credly2.png";
 
 const Portafolio = () => {
   return (
@@ -20,6 +26,8 @@ const Portafolio = () => {
       <article className="contenedor">
         {/* ************************* LANDING *********************************** */}
         <a name="landing">
+          {" "}
+          <div id="landing"></div>
           <div className="card contenedor_img_portafolio">
             <a
               href="https://rlovera2.github.io/proyecto1-Landing-de-Venta/"
@@ -78,6 +86,16 @@ const Portafolio = () => {
                   </tr>
                 </table>
               </p>
+              <img src={credly2} alt="Credly" />
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/e8017ce9-0c1f-40ed-a6ec-414a340c9d23"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaLanding} alt="Insignia Landing Page" />
+                </a>
+              </section>
             </div>
           </div>
         </a>
@@ -146,6 +164,18 @@ const Portafolio = () => {
                   </tr>
                 </table>
               </p>
+
+              <img src={credly2} alt="Credly" />
+
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/11e72ca5-4603-4174-b06d-7bbd7cf2daf9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaCrud} alt="Insignia Crud" />
+                </a>
+              </section>
             </div>
           </div>
         </a>
@@ -212,6 +242,18 @@ const Portafolio = () => {
                   </tr>
                 </table>
               </p>
+
+              <img src={credly2} alt="Credly" />
+
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/cf60243c-7a75-4961-bc3d-a41890c8fa4f"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaDashboard} alt="Insignia Dashboard" />
+                </a>
+              </section>
             </div>
           </div>
         </a>
@@ -284,6 +326,18 @@ const Portafolio = () => {
                   </tr>
                 </table>
               </p>
+
+              <img src={credly2} alt="Credly" />
+
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/791dd6a9-566b-4fa9-8e0c-43e2944246b9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaRestaurante} alt="Insignia Restaurante" />
+                </a>
+              </section>
             </div>
           </div>
         </a>
@@ -355,6 +409,16 @@ const Portafolio = () => {
                   </tr>
                 </table>
               </p>
+              <img src={credly2} alt="Credly" />
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/2da9e6a8-1400-41fc-95a2-10aaf3ddb307"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaEcommerce} alt="Insignia Ecommerce" />
+                </a>
+              </section>
             </div>
           </div>
         </a>
