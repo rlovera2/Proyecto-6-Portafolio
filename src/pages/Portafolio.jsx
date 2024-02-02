@@ -91,7 +91,7 @@ const Portafolio = () => {
               <img src={credly2} alt="Credly" />
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/e8017ce9-0c1f-40ed-a6ec-414a340c9d23"
+                  href="https://www.credly.com/badges/e8017ce9-0c1f-40ed-a6ec-414a340c9d23/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -171,7 +171,7 @@ const Portafolio = () => {
 
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/11e72ca5-4603-4174-b06d-7bbd7cf2daf9"
+                  href="https://www.credly.com/badges/11e72ca5-4603-4174-b06d-7bbd7cf2daf9/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -249,7 +249,7 @@ const Portafolio = () => {
 
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/cf60243c-7a75-4961-bc3d-a41890c8fa4f"
+                  href="https://www.credly.com/badges/cf60243c-7a75-4961-bc3d-a41890c8fa4f/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -333,7 +333,7 @@ const Portafolio = () => {
 
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/791dd6a9-566b-4fa9-8e0c-43e2944246b9"
+                  href="https://www.credly.com/badges/791dd6a9-566b-4fa9-8e0c-43e2944246b9/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -415,7 +415,7 @@ const Portafolio = () => {
               <img src={credly2} alt="Credly" />
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/2da9e6a8-1400-41fc-95a2-10aaf3ddb307"
+                  href="https://www.credly.com/badges/2da9e6a8-1400-41fc-95a2-10aaf3ddb307/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -492,7 +492,7 @@ const Portafolio = () => {
               <img src={credly2} alt="Credly" />
               <section className="insigniasDigitales">
                 <a
-                  href="https://www.credly.com/badges/02f75e85-1d32-48bc-9c09-5447760af5dd"
+                  href="https://www.credly.com/badges/02f75e85-1d32-48bc-9c09-5447760af5dd/public_url"
                   target="_blank"
                   rel="noreferrer"
                 >
