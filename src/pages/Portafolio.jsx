@@ -362,7 +362,7 @@ const Portafolio = () => {
                 Una página donde se puede realizar compras en línea, podras ver
                 una lista de productos disponibles y el detalle de un producto
                 en específico, adicionalmente podras registarte para agregar o
-                eliminar productos al carrito de compras y finalmente poer
+                eliminar productos al carrito de compras y finalmente poder
                 cerrar una orden de compra.
               </p>
               <b>Teconlogías usadas:</b>
