@@ -360,9 +360,10 @@ const Portafolio = () => {
               <h5 className="card-title">Ecommerce App</h5>
               <p className="card-text">
                 Una página donde se puede realizar compras en línea, podras ver
-                el detalle una lista de productos y el detalle de producto en
-                específico, adicionalmente podras registarte y agregar o
-                eliminar productos al carrito de compras.
+                una lista de productos disponibles y el detalle de un producto
+                en específico, adicionalmente podras registarte para agregar o
+                eliminar productos al carrito de compras y finalmente poer
+                cerrar una orden de compra.
               </p>
               <b>Teconlogías usadas:</b>
               <br />

@@ -36,16 +36,17 @@ const HomePage = () => {
 
         <article className=" texto_Principal">
           &nbsp;&nbsp;Soy un profesional en el área de Informática teniendo como
-          destreza principal el manejo eficiente de la información mediante el
-          uso del computador haciendo uso tecnologías de software.
+          destreza principal el manejo eficiente de la información, mediante el
+          uso del computador empleando diversas tecnologías de software.
           <br />
           <br />
           &nbsp;&nbsp;Con el pasar del tiempo el desarrollo web se a tornado
           esencial y muy determinante para acceder a un mercado globalizado y
           claramente segmentado, donde existen alternativas y productos para
-          todos los presupuestos en este sentido la web se a vuelto cada ves mas
-          cambiante y madura a continuación alguna de las herramientas que
-          podrás encontrar en un sitio web.
+          todos los presupuestos, en este sentido la web se ha vuelto cada vez
+          más cambiante y versátil para poder facilitar su contenido de forma
+          cada vez más simple y sencilla. Ha continuación alguna de las
+          herramientas y funcionalidades que podrás encontrar en un sitio web.
         </article>
         <hr className="linea_divisoria" />
         <Portafolio />
