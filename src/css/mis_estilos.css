@@ -164,6 +164,12 @@ a{
         text-align: center;
     }
 
+.instituciones{
+    text-align: right;
+    align-items:end;
+    align-content: flex-end;
+}
+
 
 /***********************************************/
 /******************* Media Queries *************/

@@ -8,6 +8,10 @@ import github_azul1 from "../img/github-azul1.png";
 import github_azul2 from "../img/github-azul2.png";
 import credly2 from "../img/credly2.png";
 import credly2_borde_blanco from "../img/credly2_borde_blanco.png";
+import ucamp1 from "../img/logo-top-ucamp.png";
+import ucamp2 from "../img/logo-top-ucamp2.png";
+import utel1 from "../img/utel1.png";
+import utel2 from "../img/utel2.png";
 
 //import AppRouter from "../router/AppRouter";
 
@@ -67,6 +71,7 @@ const Header = ({ title }) => {
             onMouseOut={() => cambiarImagenOff("img_Github", github_azul1)}
           />
         </a>{" "}
+        {/* ****************** CREDLY ***************************** */}
         <a
           href="https://www.credly.com/users/roberto-lovera/badges"
           target="_blank"
@@ -80,6 +85,30 @@ const Header = ({ title }) => {
               cambiarImagenOn("img_Credly", credly2_borde_blanco)
             }
             onMouseOut={() => cambiarImagenOff("img_Credly", credly2)}
+          />
+        </a>{" "}
+        &nbsp;
+        {/* ****************** UCAMP ***************************** */}
+        <a href="https://ucamp.io/" target="_blank" rel="noreferrer">
+          <img
+            src={ucamp1}
+            alt="Ucamp"
+            id="img_Ucamp"
+            className="instituciones"
+            onMouseOver={() => cambiarImagenOn("img_Ucamp", ucamp2)}
+            onMouseOut={() => cambiarImagenOff("img_Ucamp", ucamp1)}
+          />
+        </a>
+        &nbsp;
+        {/* ****************** UTEL ***************************** */}
+        <a href="https://utel.edu.mx/" target="_blank" rel="noreferrer">
+          <img
+            src={utel1}
+            alt="Utel"
+            id="img_Utel"
+            className="instituciones"
+            onMouseOver={() => cambiarImagenOn("img_Utel", utel2)}
+            onMouseOut={() => cambiarImagenOff("img_Utel", utel1)}
           />
         </a>
         <br />

@@ -22,7 +22,7 @@ const HomePage = () => {
           <br />
           <img src={credly2} alt="Credly" />
           <a
-            href="https://www.credly.com/earner/earned/badge/837642cf-31b5-4780-a619-e2a4348d86eb"
+            href="https://www.credly.com/badges/837642cf-31b5-4780-a619-e2a4348d86eb/public_url"
             target="_blank"
             rel="noreferrer"
           >
