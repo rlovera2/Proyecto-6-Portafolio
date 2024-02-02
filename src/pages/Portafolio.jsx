@@ -445,7 +445,7 @@ const Portafolio = () => {
               <h5 className="card-title">Portafolio App</h5>
               <p className="card-text">
                 Una página donde se puede visualizar todos los proyectos
-                realizados en el Bootcamp de Ucamp.
+                realizados en el Bootcamp [ Web Fullstack Developer ] de Ucamp.
               </p>
               <b>Teconlogías usadas:</b>
               <br />
