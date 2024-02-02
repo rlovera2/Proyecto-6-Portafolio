@@ -4,6 +4,7 @@ import crud from "../img/crud.jpg";
 import dashboard from "../img/dashboard.jpg";
 import restaurant from "../img/restaurant.png";
 import ecommerce from "../img/ecommerce.jpg";
+import portafolio from "../img/portafolio_pantalla.png";
 import github2 from "../img/github-logo.png";
 import html5 from "../img/html5.png";
 import css3 from "../img/css3.png";
@@ -18,6 +19,7 @@ import insigniaCrud from "../img/insignia_crud.png";
 import insigniaDashboard from "../img/insignia_dashboard.png";
 import insigniaRestaurante from "../img/insignia_restaurante.png";
 import insigniaEcommerce from "../img/insignia_ecommerce.png";
+import insigniaPortafolio from "../img/insignia_portafolio.png";
 import credly2 from "../img/credly2.png";
 
 const Portafolio = () => {
@@ -418,6 +420,83 @@ const Portafolio = () => {
                   rel="noreferrer"
                 >
                   <img src={insigniaEcommerce} alt="Insignia Ecommerce" />
+                </a>
+              </section>
+            </div>
+          </div>
+        </a>
+
+        {/* ************************* PORTAFOLIO ************************************/}
+        <a name="portafolio">
+          <div className="card contenedor_img_portafolio">
+            <a
+              href="https://proyecto-6-portafolio-rhln.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={portafolio}
+                className="card-img-top imagen_portafolio"
+                alt="Portafolio Page"
+              />
+            </a>
+
+            <div className="card-body fondo_card">
+              <h5 className="card-title">Portafolio App</h5>
+              <p className="card-text">
+                Una página donde se puede visualizar todos los proyectos
+                realizados en el Bootcamp de Ucamp.
+              </p>
+              <b>Teconlogías usadas:</b>
+              <br />
+              <br />
+              <img src={html5} alt="HTML5" />
+              <img src={css3} alt="CSS3" />
+              <img src={js} alt="JS" />
+              <img src={nodejs} alt="NodeJS" />
+              <img src={reactjs} alt="ReactJS" />
+              <br />
+              <br />
+              <p className="card-text">
+                <table>
+                  <tr>
+                    <td>
+                      <img src={link} alt="Imagen link" /> &nbsp;
+                    </td>
+                    <td>
+                      <a
+                        href="https://proyecto-6-portafolio-rhln.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        https://proyecto-6-portafolio-rhln.netlify.app/
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src={github2} alt="Imagen github" /> &nbsp;
+                    </td>
+                    <td>
+                      <a
+                        href="https://github.com/rlovera2/proyecto-6-Portafolio"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        https://github.com/rlovera2/proyecto-6-Portafolio
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </p>
+              <img src={credly2} alt="Credly" />
+              <section className="insigniasDigitales">
+                <a
+                  href="https://www.credly.com/badges/02f75e85-1d32-48bc-9c09-5447760af5dd"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insigniaPortafolio} alt="Insignia Portafolio" />
                 </a>
               </section>
             </div>
