@@ -18,7 +18,7 @@ const HomePage = () => {
       <br />
       <main className="contenedor">
         <div>
-          <h2>Desarrollo Web</h2>
+          <h2>&lt; Desarrollo Web /&gt;</h2>
           <br />
           <img src={credly2} alt="Credly" />
           <a
