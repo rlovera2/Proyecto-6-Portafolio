@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import imgportafolio from "../img/portafolio.png";
+//import imgportafolio from "../img/portafolio.png";
 
 const NavBar = () => {
   return (
@@ -9,7 +9,7 @@ const NavBar = () => {
     >
       <div className="container" height="auto" width="500px">
         <a className="navbar-brand" href="/">
-          <img src={imgportafolio} />
+          {/* <img src={imgportafolio} /> */}
           {/* <font color="#FFFFFF">Portafolio</font> */}
         </a>
         <button

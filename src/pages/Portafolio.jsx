@@ -3,7 +3,7 @@ import landing from "../img/landing.png";
 import crud from "../img/crud.jpg";
 import dashboard from "../img/dashboard.jpg";
 import restaurant from "../img/restaurant.png";
-import ecommerce from "../img/ecommerce.jpg";
+import ecommerce from "../img/ecommerce.png";
 import portafolio from "../img/portafolio_pantalla.png";
 import github2 from "../img/github-logo.png";
 import html5 from "../img/html5.png";

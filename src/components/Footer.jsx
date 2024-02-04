@@ -1,4 +1,5 @@
 // import { NavLink } from "react-router-dom";
+// import AppRouter from "../router/AppRouter";
 
 const Footer = () => {
   return (
@@ -7,6 +8,7 @@ const Footer = () => {
         <span>
           <br />
           <center>
+            {/* <AppRouter /> */}
             <div>
               <a href="#landing">Landing</a> | <a href="#crud">Crud</a> |{" "}
               <a href="#dashboard">Dashboard</a> |{" "}

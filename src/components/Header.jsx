@@ -13,7 +13,7 @@ import ucamp2 from "../img/logo-top-ucamp2.png";
 import utel1 from "../img/utel1.png";
 import utel2 from "../img/utel2.png";
 
-//import AppRouter from "../router/AppRouter";
+// import AppRouter from "../router/AppRouter";
 
 const Header = ({ title }) => {
   //************CAMBIANDO IMAGEN PRINCIPAL CUANDO TIENE EL FOCO ***************/
