@@ -9,6 +9,7 @@ import insigniaDevFullstack from "../img/insignia_dev_fullstack.png";
 // import ecommerce from "../img/ecommerce.jpg";
 import { consumirApi } from "../components/llamadaAPI";
 import Portafolio from "./Portafolio";
+import Habilidades from "./Habilidades";
 import credly2 from "../img/credly2.png";
 
 const HomePage = () => {
@@ -48,9 +49,13 @@ const HomePage = () => {
           cada vez más simple y sencilla. Ha continuación alguna de las
           herramientas y funcionalidades que podrás encontrar en un sitio web.
         </article>
-        <hr className="linea_divisoria" />
-        <Portafolio />
       </main>
+      <div className="contenedor_habilidades">
+        <Habilidades />
+
+        <hr className="linea_divisoria" />
+      </div>
+      <Portafolio />
     </>
   );
 };

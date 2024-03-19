@@ -100,7 +100,19 @@ a{
     width: auto;
 
 }
+.contenedor_habilidades{
+    display: flex;
+    justify-content:center;
+    flex-flow:wrap;
+    gap: 10px;
+    padding: 15px;
+    align-content:space-between;    
+    /* align-content:center; */
+    align-items:normal; 
+    height: auto;
+    width: auto;
 
+}
 .margenes{
     margin-top: 0%;
     margin-bottom: 0%;
