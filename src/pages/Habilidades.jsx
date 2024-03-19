@@ -1,8 +1,8 @@
 const Habilidades = () => {
   return (
     <>
+      <h4>Habilidades</h4>
       <article className="contenedor_habilidades">
-        <h4>Habilidades</h4>
         <br />
         <details>
           <summary>Sistemas Operativos</summary>
