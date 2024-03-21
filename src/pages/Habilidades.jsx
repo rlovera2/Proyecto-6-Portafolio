@@ -44,11 +44,25 @@ const Habilidades = () => {
           </ul>
         </details>
         <details>
+          <summary>Base de Datos</summary>
+          <ul>
+            <li>DB2</li>
+            <li>FIREBASE</li>
+            <li>MONGODB</li>
+            <li>MySQL</li>
+            <li>ORACLE</li>
+            <li>POSTGRESQL</li>
+            <li>SQL SERVER</li>
+            <li>SQL</li>
+          </ul>
+        </details>
+
+        <details>
           <summary>REDES</summary>
           <ul>
             <li>INSTALACION DE RED DE AFREA LOCAL (LAN)</li>
             <li>INSTALACION DE CABLEADO ESTRUCTURADO</li>
-            <li>INSTALACION DE RACK DE PISO Y RACK DE PARED(BASICO)</li>
+            <li>INSTALACION DE RACK DE PISO Y RACK DE PARED</li>
             <li>INSTALCION DE HUB, SWITCHES</li>
             <li>
               ADMINISTRACION DE RED WAN DE SATELITE DAMA 10000 Y NMS (VIASAT)
