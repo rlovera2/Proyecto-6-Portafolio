@@ -58,7 +58,7 @@ const Habilidades = () => {
         </details>
 
         <details>
-          <summary>REDES</summary>
+          <summary>Redes</summary>
           <ul>
             <li>INSTALACION DE RED DE AFREA LOCAL (LAN)</li>
             <li>INSTALACION DE CABLEADO ESTRUCTURADO</li>
