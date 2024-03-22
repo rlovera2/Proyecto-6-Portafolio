@@ -23,6 +23,7 @@ const Habilidades = () => {
             <li>VISUAL STUDIO CODE</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>BOOTSTRAP</li>
             <li>JavaScript</li>
             <li>REACT</li>
             <li>NodeJS</li>
