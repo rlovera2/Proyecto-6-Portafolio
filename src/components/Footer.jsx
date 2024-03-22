@@ -10,11 +10,11 @@ const Footer = () => {
           <center>
             {/* <AppRouter /> */}
             <div>
-              <a href="#landing">Landing</a> | <a href="#crud">Crud</a> |{" "}
-              <a href="#dashboard">Dashboard</a> |{" "}
-              <a href="#restaurant">Restaurant</a> |{" "}
-              <a href="#ecommerce">Ecommerce</a>|{" "}
-              <a href="#portafolio">Portafolio</a>
+              <a href="#sec_landing">Landing</a> | <a href="#sec_crud">Crud</a>{" "}
+              | <a href="#sec_dashboard">Dashboard</a> |{" "}
+              <a href="#sec_restaurant">Restaurant</a> |{" "}
+              <a href="#sec_ecommerce">Ecommerce</a>|{" "}
+              <a href="#sec_portafolio">Portafolio</a>
               <br />
               <br />
               Para cualquier información puede ponerse en contacto con el
