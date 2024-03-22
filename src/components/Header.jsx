@@ -13,7 +13,8 @@ import ucamp2 from "../img/logo-top-ucamp2.png";
 import utel1 from "../img/utel1.png";
 import utel2 from "../img/utel2.png";
 
-// import AppRouter from "../router/AppRouter";
+import AppRouter from "../router/AppRouter";
+// import NavBar from "../components/NavBar";
 
 const Header = ({ title }) => {
   //************CAMBIANDO IMAGEN PRINCIPAL CUANDO TIENE EL FOCO ***************/
@@ -114,7 +115,8 @@ const Header = ({ title }) => {
         <br />
         <br />
       </div>
-      {/* <AppRouter /> */}
+      <AppRouter />
+      {/* <NavBar /> */}
       <div>
         {/* <img src={fondo1} height="88%" width="101%" /> */}
         <img src={fondo1} className="imagen_binaria" />

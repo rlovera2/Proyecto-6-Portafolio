@@ -27,7 +27,7 @@ const Portafolio = () => {
     <>
       <article className="contenedor">
         {/* ************************* LANDING *********************************** */}
-        <a name="landing">
+        <a name="sec_landing">
           {" "}
           <div id="landing"></div>
           <div className="card contenedor_img_portafolio">
@@ -103,7 +103,7 @@ const Portafolio = () => {
         </a>
         {/* ************************* CRUD *********************************** */}
 
-        <a name="crud">
+        <a name="sec_crud">
           <div className="card contenedor_img_portafolio">
             <a
               href="https://rlovera2.github.io/proyecto2-CRUD.github.io/"
@@ -182,7 +182,7 @@ const Portafolio = () => {
           </div>
         </a>
         {/* ************************* DASHBOARD *********************************** */}
-        <a name="dashboard">
+        <a name="sec_dashboard">
           <div className="card contenedor_img_portafolio">
             <a
               href="https://rlovera2.github.io/proyecto3-Dashboard-App/"
@@ -260,7 +260,7 @@ const Portafolio = () => {
           </div>
         </a>
         {/* ************************* RESTAURANT *********************************** */}
-        <a name="restaurant">
+        <a name="sec_restaurant">
           <div className="card contenedor_img_portafolio">
             <a
               href="https://proyecto-4-restaurant-app.netlify.app/"
@@ -344,7 +344,7 @@ const Portafolio = () => {
           </div>
         </a>
         {/* ************************* ECOMMERCE *********************************** */}
-        <a name="ecommerce">
+        <a name="sec_ecommerce">
           <div className="card contenedor_img_portafolio">
             <a
               href="https://proyecto-5-ap-de-comercio-electronico.netlify.app/"
@@ -427,7 +427,7 @@ const Portafolio = () => {
         </a>
 
         {/* ************************* PORTAFOLIO ************************************/}
-        <a name="portafolio">
+        <a name="sec_portafolio">
           <div className="card contenedor_img_portafolio">
             <a
               href="https://proyecto-6-portafolio-rhln.netlify.app/"

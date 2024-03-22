@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 //import imgportafolio from "../img/portafolio.png";
 
 const NavBar = () => {
@@ -26,32 +26,52 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/landing">
+              {/* <NavLink className="nav-link active" to="/#sec_landing">
                 Landing
-              </NavLink>
-              {/* <a href="#landing" className="nav-link active">
-                Landing
-              </a> */}
+              </NavLink> */}
+              <a href="#sec_landing" className="nav-link active">
+                LANDING
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/menu">
+              {/* <NavLink className="nav-link" to="/#sec_crud">
                 Crud
-              </NavLink>
+              </NavLink> */}
+              <a href="#sec_crud" className="nav-link active">
+                CRUD
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/reservaciones">
+              {/* <NavLink className="nav-link" to="/#sec_dashboard">
                 Dashboard
-              </NavLink>
+              </NavLink> */}
+              <a href="#sec_dashboard" className="nav-link active">
+                DASHBOARD
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contactenos">
+              {/* <NavLink className="nav-link" to="/#sec_restaurant">
                 Restaurant
-              </NavLink>
+              </NavLink> */}
+              <a href="#sec_restaurant" className="nav-link active">
+                RESTAURANT
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contactenos">
+              {/* <NavLink className="nav-link" to="/#sec_ecommerce">
                 Ecommerce
-              </NavLink>
+              </NavLink> */}
+              <a href="#sec_ecommerce" className="nav-link active">
+                ECOMMERCE
+              </a>
+            </li>
+            <li className="nav-item">
+              {/* <NavLink className="nav-link" to="/#sec_portafolio">
+                Ecommerce
+              </NavLink> */}
+              <a href="#sec_portafolio" className="nav-link active">
+                PORTAFOLIO
+              </a>
             </li>
           </ul>
         </div>

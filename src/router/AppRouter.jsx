@@ -6,19 +6,22 @@ import {
 } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
-//import rPortafolio from "../pages/Portafolio";
+// import Portafolio from "../pages/Portafolio";
+
 const AppRouter = () => {
   return (
     <>
       <Router>
         <NavBar />
         <div className="container">
-          {/* <NavBar /> */}
           <Routes>
-            <Route path="/landing" element={<rPortafolio />} />
-            {/* <Route path="/menu" element={<Menu />} /> */}
-            {/* <Route path="/reservaciones" element={<Reservaciones />} /> */}
-            {/* <Route path="/contactenos" element={<Contactenos />} /> */}
+            {/* <Route path="/" element={<Portafolio />} /> */}
+            {/* <Route path="/#sec_landing" element={<Landing />} /> */}
+            {/* <Route path="/#sec_crud" element={<Crud />} /> */}
+            {/* <Route path="/#sec_dashboard" element={<Dashboard />} /> */}
+            {/* <Route path="/#sec_restaurant" element={<Restaurant />} /> */}
+            {/* <Route path="/#sec_ecommerce" element={<Ecommerce />} /> */}
+            {/* <Route path="/#sec_portafolio" element={<Portafolio />} /> */}
 
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
